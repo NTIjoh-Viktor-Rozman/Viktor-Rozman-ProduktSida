@@ -1,15 +1,17 @@
 .container {
-    display: flex;
+    display: flex; /* Den gör att flexbox fungerar och visas på din hemsida */
   }
   
   .item {
     border-width: 2px;
     border-style: solid;
     font-size: 40px;
-    flex-grow: 1;
     height: 100px;
+    width: 100%;
   }
 
+
+  
   .link {
     text-decoration: none;
     color: black;
@@ -21,7 +23,7 @@
 
 .container2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Gör så att allt innom container 2 har jämt mellanrum */
     border-radius: 2px;
     border-color: black;
     border-style: solid;
@@ -32,7 +34,7 @@
       margin-bottom: 20px;
       margin-left: 20px;
       margin-right: 20px;
-      flex-grow: 1;
+      flex-grow: 1; /* Gör att all bilderna innom container 2 hamnar i mitten och inte lite till sidan */
       width: 300px;
       height: 300px;
       font-size: 30px;
@@ -44,7 +46,7 @@
 
 .container3 {
   display:flex;
-  justify-content: center;
+  justify-content: center; /* Gör att titeln hamnar i mitten av sidan */
   font-size: 35px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -52,20 +54,20 @@
 
 .item2 {
   margin-top: 50px;
-  display: flex;
+  display: flex; /* Visar Flexbox */
   font-size: 30px;
-  justify-content: center;
+  justify-content: center; /* Gör att Texten på Kontakt Sidan är i mitten av sidan */
 }
 
 main {
-  flex-grow: 1;
+  flex-grow: 1; /* Visar Flexbox */
   height: 100%;
 }
 
 .footer {
   position: fixed;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; /* Gör att Footern kommer längst ner på sidan */
   width: 100%;
   font-size: 20px;
   background-color: black;

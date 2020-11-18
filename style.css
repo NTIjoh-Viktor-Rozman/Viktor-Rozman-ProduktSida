@@ -10,7 +10,9 @@
     width: 100%;
   }
 
-
+body {
+  background-image: url(Bakgrundsbild.jpg);
+}
   
   .link {
     text-decoration: none;
